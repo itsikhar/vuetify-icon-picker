@@ -2,12 +2,12 @@
   <v-card style="width: 600px" flat v-if="initialized">
     <v-card-title class="pb-0">
       <v-tabs v-model="tab" class="justify-center d-flex">
-        <v-tab>方向类</v-tab>
-        <v-tab>指示类</v-tab>
-        <v-tab>编辑类</v-tab>
-        <v-tab>数据类</v-tab>
-        <v-tab>形状类</v-tab>
-        <v-tab>通用</v-tab>
+        <v-tab>Directions</v-tab>
+        <v-tab>Indications</v-tab>
+        <v-tab>Edit</v-tab>
+        <v-tab>Data</v-tab>
+        <v-tab>Shapes</v-tab>
+        <v-tab>Universal</v-tab>
       </v-tabs>
     </v-card-title>
     <v-divider class="mx-4" />
@@ -53,7 +53,7 @@ export default {
     };
   },
   mounted() {
-    // 老规矩，给 Vuetify 一点时间
+    // Old rules, give Vuetify a moment
     setTimeout(() => (this.initialized = true), 10);
   },
   computed: {
