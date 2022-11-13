@@ -43,5 +43,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsikhar/vuetify-icon-picker.git"
+  },
+  "author": "Itsik Harlopski"
 }
