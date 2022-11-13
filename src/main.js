@@ -10,5 +10,14 @@
 // }).$mount('#app')
 
 
-import IconPicker from "./components/IconPicker.vue";
+import IconPicker from './components/index';
+
+IconPicker.install = (Vue) => {
+  Vue.component('add-to-calendar', IconPicker);
+};
+
+if (typeof window !== 'undefined') {
+  window.IconPicker = IconPicker;
+}
+
 export default IconPicker;
