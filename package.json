@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -43,5 +43,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "main": "dist/vuetify-icon-picker.common.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsikhar/vuetify-icon-picker.git"
+  },
+  "author": "Itsik Harlopski"
 }
