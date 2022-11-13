@@ -13,7 +13,7 @@
 import IconPicker from './components/index';
 
 IconPicker.install = (Vue) => {
-  Vue.component('add-to-calendar', IconPicker);
+  Vue.component('icon-picker', IconPicker);
 };
 
 if (typeof window !== 'undefined') {
